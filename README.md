@@ -1,4 +1,8 @@
-This is a command-line tool for generating random exams (in LaTeX) from an XML database of questions.  To use this tool, it helps:
+This is a command-line tool for generating random exams (in LaTeX) from an XML database of questions.  
+
+Here's a [sample PDF](https://github.com/paithan/ExamGenerating/blob/master/101/CS101Winterim2020Exam.pdf) generated from the sample questions included in this repo.
+
+To use this tool, it helps:
 
   * To have a basic understanding of XML.  This is where you will write your questions.  There are example files in this repo.  If you run in to trouble here later on, you are probably using some special characters in your questions.  You should either rewrite your questions to avoid those symbols, or search online for the correct way to replace them.
   
