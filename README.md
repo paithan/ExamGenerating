@@ -57,3 +57,7 @@ FAQ:
   
   These are to show (and test) that the code works with two different styles of placements for the input XML files.  They can either be in a sibling directory or in a child directory.
   
+  * Why are you using XML and not JSON?
+  
+  When I started this project, my questions were in XML and I haven't changed it.
+  
