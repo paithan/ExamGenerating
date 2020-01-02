@@ -906,33 +906,55 @@ public class ExamGenerator extends DefaultHandler {
             maxSection = 100;
         }
         
+        int totalPoints = 0;
+        
         //get the numbers for true/false questions
         int maxNumTrueFalse = generator.getNumberOfQuestions(generator.trueFalseQuestions);
-        numberTrueFalse = getIntInput("What is the number of True/False questions?", input, 0, maxNumTrueFalse);
+        numberTrueFalse = getIntInput("What is the number of True/False questions?  (You have " + maxNumTrueFalse + " available.)", input, 0, maxNumTrueFalse);
         if (numberTrueFalse > 0) {
             valuePerTrueFalse = getNonnegativeIntInput("How much is each T/F question worth?", input);
         }
+        int trueFalsePoints = numberTrueFalse * valuePerTrueFalse;
+        totalPoints += trueFalsePoints;
+        System.out.println("Okay, that's " + trueFalsePoints + " for the True/False section.");
+        System.out.println("Total points so far: " + totalPoints);
+        
         
         //get the numbers for multiple choice questions
         int maxNumMultipleChoice = generator.getNumberOfQuestions(generator.multipleChoiceQuestions);
-        numberMultipleChoice = getIntInput("What is the number of Multiple-Choice questions?", input, 0, maxNumMultipleChoice);
+        numberMultipleChoice = getIntInput("What is the number of Multiple-Choice questions?  (You have " + maxNumMultipleChoice + " available.)", input, 0, maxNumMultipleChoice);
         if (numberMultipleChoice > 0) {
             valuePerMultipleChoice = getNonnegativeIntInput("How much is each MC question worth?", input);
         }
+        int multipleChoicePoints = numberMultipleChoice * valuePerMultipleChoice;
+        totalPoints += multipleChoicePoints;
+        System.out.println("Okay, that's " + multipleChoicePoints + " for the Multiple Choice section.");
+        System.out.println("Total points so far: " + totalPoints);
+        
         
         //get numbers for short-answer questions
         int maxNumShortAnswer = generator.getNumberOfQuestions(generator.shortAnswerQuestions);
-        numberShortAnswer = getIntInput("What is the number of Short-Answer questions?", input, 0, maxNumShortAnswer);
+        numberShortAnswer = getIntInput("What is the number of Short-Answer questions?  (You have " + maxNumShortAnswer + " available.)", input, 0, maxNumShortAnswer);
         if (numberShortAnswer > 0) {
             valuePerShortAnswer = getNonnegativeIntInput("How much is each SA question worth?", input);
         }
+        int shortAnswerPoints = numberShortAnswer * valuePerShortAnswer;
+        totalPoints += shortAnswerPoints;
+        System.out.println("Okay, that's " + shortAnswerPoints + " for the Short Answer section.");
+        System.out.println("Total points so far: " + totalPoints);
+        
         
         //get numbers for fill-in-the-blank questions
         int maxNumFillInTheBlank = generator.getNumberOfQuestions(generator.fillInTheBlankQuestions);
-        numberFillInTheBlank = getIntInput("What is the number of Fill-In-The-Blank questions?", input, 0, maxNumFillInTheBlank);
+        numberFillInTheBlank = getIntInput("What is the number of Fill-In-The-Blank questions?  (You have " + maxNumFillInTheBlank + " available.)", input, 0, maxNumFillInTheBlank);
         if (numberFillInTheBlank > 0) {
             valuePerFillInTheBlank = getNonnegativeIntInput("How much is each FitB question worth?", input);
         }
+        int fillInTheBlankPoints = numberFillInTheBlank * valuePerFillInTheBlank;
+        totalPoints += fillInTheBlankPoints;
+        System.out.println("Okay, that's " + fillInTheBlankPoints + " for the Fill in the Blank section.");
+        System.out.println("Total points so far: " + totalPoints);
+        
         
         System.out.println("Do you want to include a cover page with instructions and a place to put answers?  (Also decides whether to put a protective back page.) Y/n");
         includeCoverAndBackPage = !(input.nextLine().toLowerCase().startsWith("n"));
