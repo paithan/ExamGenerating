@@ -1,0 +1,312 @@
+<?xml version="1.0"?>
+
+<Questions>
+    
+    <!-- Section 1: Geometry -->
+    
+    <!-- Section 1.1: Sides -->
+    
+
+    <TrueFalseQuestion>
+        <text>
+            Squares have four sides.
+        </text>
+        <answer>True</answer>
+        <chapter>1</chapter>
+        <section>1</section>
+    </TrueFalseQuestion>
+    
+
+    <TrueFalseQuestion>
+        <text>
+            Triangles have four sides.
+        </text>
+        <answer>False</answer>
+        <chapter>1</chapter>
+        <section>1</section>
+    </TrueFalseQuestion>
+    
+
+    <TrueFalseQuestion>
+        <text>
+            Hexagons have three sides.
+        </text>
+        <answer>False</answer>
+        <chapter>1</chapter>
+        <section>1</section>
+    </TrueFalseQuestion>
+    
+
+    <TrueFalseQuestion>
+        <text>
+            Pentagons have five sides.
+        </text>
+        <answer>True</answer>
+        <chapter>1</chapter>
+        <section>1</section>
+    </TrueFalseQuestion>
+    
+    <MultipleChoiceQuestion>
+        <text>
+            How many sides does a triangle have?
+        </text>
+        <choice>
+            2
+        </choice>
+        <answer>
+            3
+        </answer>
+        <choice>
+            4
+        </choice>
+        <choice>
+            99
+        </choice>
+        <chapter>1</chapter>
+        <section>1</section>
+    </MultipleChoiceQuestion>
+    
+    <MultipleChoiceQuestion>
+        <text>
+            How many sides does a square have?
+        </text>
+        <choice>
+            2
+        </choice>
+        <choice>
+            3
+        </choice>
+        <answer>
+            4
+        </answer>
+        <choice>
+            5
+        </choice>
+        <chapter>1</chapter>
+        <section>1</section>
+    </MultipleChoiceQuestion>
+    
+    <MultipleChoiceQuestion>
+        <text>
+            Let $T$ be a triangle.  How many sides does $T$ have?
+        </text>
+        <choice>
+            2
+        </choice>
+        <answer>
+            3
+        </answer>
+        <choice>
+            4
+        </choice>
+        <choice>
+            99
+        </choice>
+        <chapter>1</chapter>
+        <section>1</section>
+    </MultipleChoiceQuestion>
+    
+    
+    
+    <!-- Section 1.2: Corners -->
+    
+
+    <TrueFalseQuestion>
+        <text>
+            Squares have four corners.
+        </text>
+        <answer>True</answer>
+        <chapter>1</chapter>
+        <section>2</section>
+    </TrueFalseQuestion>
+    
+
+    <TrueFalseQuestion>
+        <text>
+            Triangles have four corners.
+        </text>
+        <answer>False</answer>
+        <chapter>1</chapter>
+        <section>2</section>
+    </TrueFalseQuestion>
+    
+
+    <TrueFalseQuestion>
+        <text>
+            Hexagons have three corners.
+        </text>
+        <answer>False</answer>
+        <chapter>1</chapter>
+        <section>2</section>
+    </TrueFalseQuestion>
+    
+
+    <TrueFalseQuestion>
+        <text>
+            Pentagons have five corners.
+        </text>
+        <answer>True</answer>
+        <chapter>1</chapter>
+        <section>2</section>
+    </TrueFalseQuestion>
+    
+    <MultipleChoiceQuestion>
+        <text>
+            How many corners does a triangle have?
+        </text>
+        <choice>
+            2
+        </choice>
+        <answer>
+            3
+        </answer>
+        <choice>
+            4
+        </choice>
+        <choice>
+            99
+        </choice>
+        <chapter>1</chapter>
+        <section>2</section>
+    </MultipleChoiceQuestion>
+    
+    <MultipleChoiceQuestion>
+        <text>
+            How many corners does a square have?
+        </text>
+        <choice>
+            2
+        </choice>
+        <choice>
+            3
+        </choice>
+        <answer>
+            4
+        </answer>
+        <choice>
+            5
+        </choice>
+        <chapter>1</chapter>
+        <section>2</section>
+    </MultipleChoiceQuestion>
+    
+    <MultipleChoiceQuestion>
+        <text>
+            Let $T$ be a triangle.  How many corners does $T$ have?
+        </text>
+        <choice>
+            2
+        </choice>
+        <answer>
+            3
+        </answer>
+        <choice>
+            4
+        </choice>
+        <choice>
+            99
+        </choice>
+        <chapter>1</chapter>
+        <section>2</section>
+    </MultipleChoiceQuestion>
+    
+    
+    <ExamQuestionGroup>
+        <chapter>1</chapter>
+        <section>2</section>
+        <header>
+            Consider a triangle $T$.
+        </header>
+        
+        <MultipleChoiceQuestion>
+            <text>
+                How many edges does $T$ have?
+            </text>
+            <choice>
+                2
+            </choice>
+            <answer>
+                3
+            </answer>
+            <choice>
+                4
+            </choice>
+            <choice>
+                5
+            </choice>
+        </MultipleChoiceQuestion>
+        
+        <MultipleChoiceQuestion>
+            <text>
+                How many corners does $T$ have?
+            </text>
+            <choice>
+                2
+            </choice>
+            <answer>
+                3
+            </answer>
+            <choice>
+                4
+            </choice>
+            <choice>
+                5
+            </choice>
+        </MultipleChoiceQuestion>
+    </ExamQuestionGroup>
+    
+    
+    
+    
+    <!-- Section 2: Inequalities -->
+    
+    
+    <!-- Section 2.1: Less than and Greater than -->
+    
+    <FillInTheBlankQuestion>
+        <chapter>2</chapter>
+        <section>1</section>
+        <text>
+            Three is \blankToFillIn\ five.
+        </text>
+        <answer>
+            less than
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    
+    <FillInTheBlankQuestion>
+        <chapter>2</chapter>
+        <section>1</section>
+        <text>
+            Seven is \blankToFillIn\ five.
+        </text>
+        <answer>
+            greater than
+        </answer>
+    </FillInTheBlankQuestion>
+
+    
+    <TrueFalseQuestion>
+        <text>
+            $3 &lt; 5$
+        </text>
+        <answer>True</answer>
+        <chapter>2</chapter>
+        <section>1</section>
+    </TrueFalseQuestion>
+
+    
+    <TrueFalseQuestion>
+        <text>
+            $3 &gt; 5$
+        </text>
+        <answer>False</answer>
+        <chapter>2</chapter>
+        <section>1</section>
+    </TrueFalseQuestion>
+    
+   
+    
+</Questions>
+    

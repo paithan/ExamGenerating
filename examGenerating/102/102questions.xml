@@ -1,0 +1,1600 @@
+<?xml version="1.0"?>
+
+<Questions>
+
+    <TrueFalseQuestion>
+        <text>
+            Global Scratch variables can be used by different sprites.
+        </text>
+        <answer>True</answer>
+        <chapter>1</chapter>
+        <section>5</section>
+    </TrueFalseQuestion>
+
+    <TrueFalseQuestion>
+        <text>
+            A Scratch variable with value 1 cannot be a boolean variable. 
+        </text>
+        <answer>False</answer>
+        <chapter>1</chapter>
+        <section>5</section>
+    </TrueFalseQuestion>
+
+    <TrueFalseQuestion>
+        <text>
+            In Scratch, a local variable can be used by one or two different sprites.
+        </text>
+        <answer>False</answer>
+        <chapter>1</chapter>
+        <section>5</section>
+    </TrueFalseQuestion>
+
+    <TrueFalseQuestion>
+        <text>
+            A Scratch variable can have value -1.
+        </text>
+        <answer>True</answer>
+        <chapter>1</chapter>
+        <section>5</section>
+    </TrueFalseQuestion>
+
+    <TrueFalseQuestion>
+        <text>
+            The value of a global Scratch variable can only be changed one time.
+        </text>
+        <answer>False</answer>
+        <chapter>1</chapter>
+        <section>5</section>
+    </TrueFalseQuestion>
+
+    <TrueFalseQuestion>
+        <text>
+            In Scratch, a local variable can only be used by one script.
+        </text>
+        <answer>False</answer>
+        <chapter>1</chapter>
+        <section>5</section>
+    </TrueFalseQuestion>
+
+    <TrueFalseQuestion>
+        <text>
+            Each Scratch sprite may have no more than one script.
+        </text>
+        <answer>False</answer>
+        <chapter>1</chapter>
+        <section>6</section>
+    </TrueFalseQuestion>
+
+    <TrueFalseQuestion>
+        <text>
+            The same event can be received by different Scratch sprites.
+        </text>
+        <answer>True</answer>
+        <chapter>1</chapter>
+        <section>7</section>
+    </TrueFalseQuestion>
+
+    <TrueFalseQuestion>
+        <text>
+            The same event can be broadcast by different Scratch sprites.
+        </text>
+        <answer>True</answer>
+        <chapter>1</chapter>
+        <section>7</section>
+    </TrueFalseQuestion>
+
+    <TrueFalseQuestion>
+        <text>
+            In Scratch, a single script can broadcast multiple events.
+        </text>
+        <answer>True</answer>
+        <chapter>1</chapter>
+        <section>7</section>
+    </TrueFalseQuestion>
+
+    <TrueFalseQuestion>
+        <text>
+            In Excel, a function can be used in the argument of another function.
+        </text>
+        <answer>True</answer>
+        <chapter>13</chapter>
+        <section>7</section>
+    </TrueFalseQuestion>
+    
+    <!-- Beginning of the HTML T/F questions. These all have the same chapter and section number. -->
+
+    <TrueFalseQuestion>
+        <text>
+            The \code{blink} tag is no longer an officially supported HTML tag.  (And that's a good thing.)
+        </text>
+        <answer>True</answer>
+        <chapter>20</chapter>
+        <section>1</section>
+    </TrueFalseQuestion>
+
+    <TrueFalseQuestion>
+        <text>
+            An HTML \code{title} tag belongs inside the \code{head} tag.
+        </text>
+        <answer>True</answer>
+        <chapter>20</chapter>
+        <section>1</section>
+    </TrueFalseQuestion>
+
+    <TrueFalseQuestion>
+        <text>
+            An HTML \code{head} tag belongs inside the \code{body} tag.
+        </text>
+        <answer>False</answer>
+        <chapter>20</chapter>
+        <section>1</section>
+    </TrueFalseQuestion>
+
+    <TrueFalseQuestion>
+        <text>
+            A webpage's \code{html} tag must contain attributes or the page won't load.
+        </text>
+        <answer>False</answer>
+        <chapter>20</chapter>
+        <section>1</section>
+    </TrueFalseQuestion>
+
+    <TrueFalseQuestion>
+        <text>
+            Most web browsers will do their best to load a webpage with incorrectly-placed tags.
+        </text>
+        <answer>True</answer>
+        <chapter>20</chapter>
+        <section>1</section>
+    </TrueFalseQuestion>
+
+    <TrueFalseQuestion>
+        <text>
+            The \code{border} attribute for the HTML \code{table} tag determines whether lines around the table and the individual cells will be displayed.
+        </text>
+        <answer>True</answer>
+        <chapter>20</chapter>
+        <section>1</section>
+    </TrueFalseQuestion>
+
+    <TrueFalseQuestion>
+        <text>
+            The most appropriate way to change \textbf{how} text in a webpage is displayed is with the \code{font} tag.
+        </text>
+        <answer>False</answer>
+        <chapter>20</chapter>
+        <section>1</section>
+    </TrueFalseQuestion>
+
+    <TrueFalseQuestion>
+        <text>
+            The following HTML code will change the entire page background to orange.
+            
+            \code{&lt;style&gt;\\
+                \codeIndent body \{background-color:orange;\}\\
+                &lt;/style&gt;
+            }
+        </text>
+        <answer>True</answer>
+        <chapter>20</chapter>
+        <section>1</section>
+    </TrueFalseQuestion>
+
+    <TrueFalseQuestion>
+        <text>
+            An HTML node can have multiple style classes.
+        </text>
+        <answer>True</answer>
+        <chapter>20</chapter>
+        <section>1</section>
+    </TrueFalseQuestion>
+    
+    <!-- End of the HTML T/F questions. -->
+    
+    
+    
+    
+    <ExamQuestionGroup>
+        <chapter>1</chapter>
+        <section>3</section>
+        <header>
+            Consider this Scratch script:\\
+            \code{wait 1 secs\\
+            if catMonkey = 0\\
+            \codeIndent say \fbox{I'm hungry} for 2 secs\\
+            else\\
+            \codeIndent wait 2 secs\\
+            wait 2 secs\\}
+        </header>
+        <MultipleChoiceQuestion>
+            <text>
+                If \code{catMonkey} only ever has value 0 or 1, what is \code{catMonkey} called?
+            </text>
+            <choice>
+                a string variable
+            </choice>
+            <answer>
+                a boolean variable
+            </answer>
+            <choice>
+                a true-or-false variable
+            </choice>
+            <choice>
+                a monkey variable
+            </choice>
+        </MultipleChoiceQuestion>
+        
+        <MultipleChoiceQuestion>
+            <text>
+                How will the time it takes this script to run be affected if the value of \code{catMonkey} is changed from 0 to 1?
+            </text>
+            <choice>
+                Probably by increasing it by slightly more than 1 second.
+            </choice>
+            <choice>
+                Probably by increasing it by slightly more than 2 seconds.
+            </choice>
+            <answer>
+                Probably only very slightly.
+            </answer>
+        </MultipleChoiceQuestion>
+    </ExamQuestionGroup>
+    
+    <ExamQuestionGroup>
+        <chapter>1</chapter>
+        <section>5</section>
+        <header>
+            Consider this Scratch script:\\
+            \code{set mouse to 0\\
+            repeat until mouse + 1 = 10\\
+            \codeIndent say \fbox{I like mice!} for 1 secs\\
+            \codeIndent wait 1 secs\\
+            \codeIndent change mouse by 1\\
+            \codeIndent say \fbox{I like mice!} for 1 secs\\
+            \codeIndent wait 1 secs}
+        </header>
+        <MultipleChoiceQuestion>
+            <text>
+                How many times will the sprite say: I like mice!
+            </text>
+            <choice>
+                12
+            </choice>
+            <choice>
+                14
+            </choice>
+            <choice>
+                16
+            </choice>
+            <answer>
+                18
+            </answer>
+        </MultipleChoiceQuestion>
+        
+        <MultipleChoiceQuestion>
+            <text>
+                What will the value of mouse be when the script ends?
+            </text>
+            <choice>
+                0
+            </choice>
+            <choice>
+                1
+            </choice>
+            <answer>
+                9
+            </answer>
+            <choice>
+                10
+            </choice>
+            <choice>
+                11
+            </choice>
+        </MultipleChoiceQuestion>
+        
+        <MultipleChoiceQuestion>
+            <text>
+                Approximately how long does this script take to run?
+            </text>
+            <choice>
+                slightly over 10 seconds.
+            </choice>
+            <choice>
+                slightly over 16 seconds
+            </choice>
+            <choice>
+                slightly over 25 seconds
+            </choice>
+            <answer>
+                slightly over 36 seconds
+            </answer>
+        </MultipleChoiceQuestion>
+        
+        <MultipleChoiceQuestion>
+            <text>
+                What would happen if the instruction \code{change mouse by 1} is replaced with \code{change mouse by 2}?
+            </text>
+            <choice>
+                The script would run in slightly over 10 seconds.
+            </choice>
+            <answer>
+                The script would run in slightly over 18 seconds.
+            </answer>
+            <choice>
+                The script does run at all.
+            </choice>
+            <choice>
+                The script runs forever (or until the user stops it).
+            </choice>
+        </MultipleChoiceQuestion>
+    </ExamQuestionGroup>
+    
+    <MultipleChoiceQuestion>
+        <chapter>1</chapter>
+        <section>5</section>
+        <text>
+            Which of the following Scratch instructions do the same thing?
+            
+            \begin{itemize}
+             \item[1:] \code{change belugaBeetle by 2}
+             \item[2:] \code{set belugaBeetle to belugaBeetle + belugaBeetle}
+             \item[3:] \code{set belugaBeetle to 1 + belugaBeetle + 1}
+            \end{itemize}
+        </text>
+        <choice>
+            Only 1 and 2.
+        </choice>
+        <choice>
+            Only 2 and 3.
+        </choice>
+        <answer>
+            Only 3 and 1.
+        </answer>
+        <choice>
+            All three do the same thing
+        </choice>
+    </MultipleChoiceQuestion>
+    
+    <MultipleChoiceQuestion>
+        <chapter>1</chapter>
+        <section>5</section>
+        <text>
+            Which of the following Scratch compound instructions do the same thing?
+            
+            \begin{itemize}
+             \item[1:] \code{if doberman = 0\\
+             \codeIndent say \fbox{That's a dog!}}
+             \item[2:] \code{if doberman = 0\\
+             \codeIndent say \fbox{That's a dog!}\\
+             else\\
+             \codeIndent wait 1 sec}
+             \item[3:] \code{if doberman = 0\\
+             \codeIndent say \fbox{That's a dog!}\\
+             else}
+            \end{itemize}
+        </text>
+        <choice>
+            Only 1 and 2.
+        </choice>
+        <choice>
+            Only 2 and 3.
+        </choice>
+        <answer>
+            Only 3 and 1.
+        </answer>
+    </MultipleChoiceQuestion>
+    
+    <MultipleChoiceQuestion>
+        <chapter>1</chapter>
+        <section>5</section>
+        <text>
+            Which of the following Scratch code snippets do the same thing?
+            
+            \begin{itemize}
+             \item[1:] \code{gibbon = 0\\
+             repeat until gibbon > 10\\
+             \codeIndent say \fbox{This is a long song...} for 1 secs\\
+             \codeIndent say \fbox{It keeps going on and on...} for 1 secs\\
+             \codeIndent say \fbox{But it's not that other terrible song!} for 1 secs\\
+             \codeIndent set gibbon to gibbon - 1}
+             \item[2:] \code{barracuda = 0\\
+             repeat until barracuda > 100\\
+             \codeIndent say \fbox{This is a long song...} for 1 secs\\
+             \codeIndent say \fbox{It keeps going on and on...} for 1 secs\\
+             \codeIndent say \fbox{But it's not that other terrible song!} for 1 secs\\
+             \codeIndent change barracuda by 1}
+             \item[3:] \code{forever\\
+             \codeIndent say \fbox{This is a long song...} for 1 secs\\
+             \codeIndent say \fbox{It keeps going on and on...} for 1 secs\\
+             \codeIndent say \fbox{But it's not that other terrible song!} for 1 secs}
+            \end{itemize}
+        </text>
+        <choice>
+            Only 1 and 2.
+        </choice>
+        <choice>
+            Only 2 and 3.
+        </choice>
+        <answer>
+            Only 3 and 1.
+        </answer>
+        <choice>
+            All three do the same thing
+        </choice>
+    </MultipleChoiceQuestion>
+    
+    <MultipleChoiceQuestion>
+        <chapter>1</chapter>
+        <section>5</section>
+        <text>
+            Mary wants to write a piece of a Scratch script to determine whether the number value stored in variable \code{antelope} is greater than 10.  Which of the following code snippets could she use to do this?
+            
+            \begin{itemize}
+             \item[1:] \code{if antelope > 10\\
+             \codeIndent say \fbox{antelope is greater than 10}\\
+             else\\
+             \codeIndent say \fbox{antelope is not greater than 10}}
+             \item[2:] \code{if antelope > 10\\
+             \codeIndent say \fbox{antelope is greater than 10}\\
+             say \fbox{antelope is not greater than 10}}
+            \end{itemize}
+        </text>
+        <choice>
+            Only 1.
+        </choice>
+        <choice>
+            Only 2.
+        </choice>
+        <answer>
+            She could use either; they both work.
+        </answer>
+        <choice>
+            Neither of them would help her answer the questions.
+        </choice>
+    </MultipleChoiceQuestion>
+    
+    <MultipleChoiceQuestion>
+        <chapter>1</chapter>
+        <section>7</section>
+        <text>
+            Which of the following sets of Scratch scripts will do the same thing when the \code{bananaman} event is broadcast?
+            
+            \begin{itemize}
+             \item[1:] \code{when I receive \fbox{bananaman}\\
+             say \fbox{I wanna be a monkey!} for 1 secs\\
+             broadcast \fbox{badgerBadger}\\
+             \phantom{a}\\
+             when I receive \fbox{badgerBadger}\\
+             say \fbox{a monkey monkey monkey!} for 1 secs\\
+             broadcast \fbox{bananaman}}
+             \item[2:] \code{when I receive \fbox{bananaman}\\
+             forever\\
+             \codeIndent say \fbox{I wanna be a monkey!} for 1 secs\\
+             \codeIndent broadcast \fbox{badgerBadger}\\
+             \codeIndent say \fbox{a monkey monkey monkey!} for 1 secs}
+             \item[3:] \code{when I receive \fbox{bananaman}\\
+             say \fbox{I wanna be a monkey!} for 1 secs\\
+             broadcast \fbox{badgerBadger}\\
+             \phantom{a}\\
+             when I receive \fbox{badgerBadger}\\
+             say \fbox{a monkey monkey monkey!} for 1 secs}
+            \end{itemize}
+        </text>
+        <choice>
+            Only 1 and 2.
+        </choice>
+        <choice>
+            Only 2 and 3.
+        </choice>
+        <answer>
+            Only 3 and 1.
+        </answer>
+        <choice>
+            All three do the same thing
+        </choice>
+    </MultipleChoiceQuestion>
+    
+    <MultipleChoiceQuestion>
+        <chapter>14</chapter>
+        <section>1</section>
+        <text>
+            Which of the following is the \code{PMT} function used for?
+        </text>
+        <answer>
+            To determine the payments that will need to be made to pay off a loan.
+        </answer>
+        <choice>
+            To determine the current value of an investment based on constant payments and interest rate.
+        </choice>
+        <choice>
+            To determine the future value of an investment with constant payments and interest rate.
+        </choice>
+        <choice>
+            To determine the power of monkey theology based on constant loan payments.
+        </choice>
+    </MultipleChoiceQuestion>
+    
+    <MultipleChoiceQuestion>
+        <chapter>14</chapter>
+        <section>1</section>
+        <text>
+            Which of the following is the \code{FV} function used for?
+        </text>
+        <choice>
+            To determine the current value of an investment based on constant payments and interest rate.
+        </choice>
+        <answer>
+            To determine the future value of an investment with constant payments and interest rate.
+        </answer>
+        <choice>
+            To determine the payments that will need to be made to pay off a loan.
+        </choice>
+        <choice>
+            To determine the future value of an investment based on gibbon murals.
+        </choice>
+    </MultipleChoiceQuestion>
+    
+    <MultipleChoiceQuestion>
+        <chapter>14</chapter>
+        <section>1</section>
+        <text>
+            Which of the following is the \code{PV} function used for?
+        </text>
+        <choice>
+            To determine the future value of an investment with constant payments and interest rate.
+        </choice>
+        <answer>
+            To determine the current value of an investment based on constant payments and interest rate.
+        </answer>
+        <choice>
+            To determine the payments that will need to be made to pay off a loan.
+        </choice>
+        <choice>
+            To determine the number of orangutans needed to power a vacuum.
+        </choice>
+    </MultipleChoiceQuestion>
+    
+    <ExamQuestionGroup>
+        <chapter>15</chapter>
+        <section>1</section>
+        <header>
+            Consider this Excel table:
+        
+            \begin{tabular}{l|c|c|c|}
+              &amp; A &amp; B &amp; C \\ \hline
+              1 &amp; 70 &amp; 90 &amp; \\ \hline
+              2 &amp; 90 &amp; 70 &amp; \\ \hline
+              3 &amp; 100 &amp; 100 &amp; \\ \hline
+              4 &amp; 60 &amp; 100 &amp; \\ \hline
+              5 &amp; 80 &amp; 80 &amp; \\ \hline
+              6 &amp; &amp; &amp; \\ \hline
+            \end{tabular}
+        </header>
+        <MultipleChoiceQuestion>
+            <text>
+                What will be displayed in cell C1 if the formula \code{=MAX(AVERAGE(A1:B1), .25*A1 + .75*B1)} is entered there?
+            </text>
+            <choice>
+                70
+            </choice>
+            <choice>
+                80
+            </choice>
+            <answer>
+                85
+            </answer>
+            <choice>
+                90
+            </choice>
+        </MultipleChoiceQuestion>
+        <MultipleChoiceQuestion>
+            <text>
+                What will the formula be in cell C2 if cell C1 is copied there?  
+            </text>
+            <choice>
+                \code{=MAX(AVERAGE(A1:B1), .25*A1 + .75*B1)}
+            </choice>
+            <answer>
+                \code{=MAX(AVERAGE(A2:B2), .25*A2 + .75*B2)}
+            </answer>
+            <choice>
+                \code{=MAX(AVERAGE(\$A\$1:\$B\$1), .25*\$A\$1 + .75*\$B\$1)}
+            </choice>
+            <choice>
+                \code{=MAX(AVERAGE(\$A\$2:\$B\$2), .25*\$A\$2 + .75*\$B\$2)}
+            </choice>
+        </MultipleChoiceQuestion>
+        <MultipleChoiceQuestion>
+            <text>
+                What will be displayed in cell C5 if the formula from C1 is copied and pasted into the cells C2, C3, C4 and C5?
+            </text>
+            <answer>
+                80
+            </answer>
+            <choice>
+                90
+            </choice>
+            <choice>
+                100
+            </choice>
+            <choice>
+                110
+            </choice>
+        </MultipleChoiceQuestion>
+    </ExamQuestionGroup>
+    
+    <ExamQuestionGroup>
+        <chapter>15</chapter>
+        <section>1</section>
+        <header>
+            Consider this Excel table:
+        
+            \begin{tabular}{l|c|c|c|}
+              &amp; A &amp; B &amp; C \\ \hline
+              1 &amp; 10 &amp; 20 &amp; \\ \hline
+              2 &amp; 10 &amp; 6 &amp; \\ \hline
+              3 &amp; -5 &amp; 1 &amp; \\ \hline
+              4 &amp; 0 &amp; -10 &amp; \\ \hline
+            \end{tabular}
+        </header>
+        <MultipleChoiceQuestion>
+            <text>
+                What will be displayed in cell C1 if the formula \code{=IF(A1>B1, 1, -1)} is entered there?
+            </text>
+            <choice>
+                10
+            </choice>
+            <choice>
+                20
+            </choice>
+            <choice>
+                1
+            </choice>
+            <answer>
+                -1
+            </answer>
+        </MultipleChoiceQuestion>
+        <MultipleChoiceQuestion>
+            <text>
+                What will the formula be in cell C2 if cell C1 is copied there?  
+            </text>
+            <choice>
+                \code{=IF(A1>B1, 1, -1)}
+            </choice>
+            <choice>
+                \code{=IF(A2>B2, 2, -2)}
+            </choice>
+            <choice>
+                \code{=IF(A1>B1, 2, -2)}
+            </choice>
+            <answer>
+                \code{=IF(A2>B2, 1, -1)}
+            </answer>
+        </MultipleChoiceQuestion>
+        <MultipleChoiceQuestion>
+            <text>
+                If the formula from cell C1 is copied into C2, C3 and C4, what will be displayed in C4?
+            </text>
+            <choice>
+                -1
+            </choice>
+            <answer>
+                1
+            </answer>
+            <choice>
+                0
+            </choice>
+            <choice>
+                -10
+            </choice>
+        </MultipleChoiceQuestion>
+        <MultipleChoiceQuestion>
+            <text>
+                Next, what will be displayed in C5 then if the formula \code{=COUNTIF(C1:C4, &gt; 0)} is entered there?
+            </text>
+            <choice>
+                1
+            </choice>
+            <answer>
+                2
+            </answer>
+            <choice>
+                3
+            </choice>
+            <choice>
+                4
+            </choice>
+        </MultipleChoiceQuestion>
+    </ExamQuestionGroup>
+    
+    <ExamQuestionGroup>
+        <chapter>15</chapter>
+        <section>1</section>
+        <header>
+            Consider this Excel table:
+        
+            \begin{tabular}{l|c|c|}
+              &amp; A &amp; B \\ \hline
+              1 &amp; 5 &amp; 4 \\ \hline
+              2 &amp; -2 &amp; 2 \\ \hline
+              3 &amp; -1 &amp; -2 \\ \hline
+              4 &amp; 3 &amp; 8 \\ \hline
+              5 &amp; -2 &amp; 5 \\ \hline
+              6 &amp; &amp; \\ \hline
+            \end{tabular}
+        </header>
+        <MultipleChoiceQuestion>
+            <text>
+                What will be displayed in cell A6 if the formula \code{=MAX(A1:A5)} is entered there?
+            </text>
+            <choice>
+                -2
+            </choice>
+            <choice>
+                3
+            </choice>
+            <answer>
+                5
+            </answer>
+            <choice>
+                8
+            </choice>
+        </MultipleChoiceQuestion>
+        <MultipleChoiceQuestion>
+            <text>
+                What will be displayed in cell A6 if the formula \code{=COUNTIF(A1:A5, &gt; 0)} is entered there?
+            </text>
+            <choice>
+                -1
+            </choice>
+            <choice>
+                0
+            </choice>
+            <choice>
+                1
+            </choice>
+            <answer>
+                2
+            </answer>
+        </MultipleChoiceQuestion>
+        <MultipleChoiceQuestion>
+            <text>
+                What will be displayed in cell B6 if the formula \code{=SUMIF(A1:A5, &gt; 0, B1:B5)} is entered there?
+            </text>
+            <choice>
+                10
+            </choice>
+            <answer>
+                12
+            </answer>
+            <choice>
+                14
+            </choice>
+            <choice>
+                15
+            </choice>
+        </MultipleChoiceQuestion>
+        <MultipleChoiceQuestion>
+            <text>
+                What will be displayed in cell B6 if the formula \code{=IF(SUM(A1:A5) &gt; 5, MAX(B1:B5), SUM(B1:B5))} is entered there?
+            </text>
+            <choice>
+                17
+            </choice>
+            <answer>
+                8
+            </answer>
+            <choice>
+                5
+            </choice>
+            <choice>
+                3
+            </choice>
+        </MultipleChoiceQuestion>
+    </ExamQuestionGroup>
+    
+    <ExamQuestionGroup>
+        <chapter>15</chapter>
+        <section>1</section>
+        <header>
+            Consider this Excel table:
+        
+            \begin{tabular}{l|c|c|c|c|c|}
+              &amp; A &amp; B &amp; C &amp; D &amp; E\\ \hline
+              1 &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; \\ \hline
+              2 &amp; 5 &amp; 6 &amp; 7 &amp; 8 &amp; \\ \hline
+              3 &amp; 9 &amp; 10 &amp; 11 &amp; 12 &amp; \\ \hline
+            \end{tabular}
+        </header>
+        <MultipleChoiceQuestion>
+            <text>
+                What will be displayed in cell E1 if the formula \code{=COUNTIF(A1:D1, &gt; 5)} is entered there?
+            </text>
+            <answer>
+                0
+            </answer>
+            <choice>
+                1
+            </choice>
+            <choice>
+                2
+            </choice>
+            <choice>
+                3
+            </choice>
+        </MultipleChoiceQuestion>
+        <MultipleChoiceQuestion>
+            <text>
+                What will be displayed in cell E2 if the formula \code{=COUNTIF(A2:D2, &gt; 5)} is entered there?
+            </text>
+            <choice>
+                0
+            </choice>
+            <choice>
+                1
+            </choice>
+            <choice>
+                2
+            </choice>
+            <answer>
+                3
+            </answer>
+        </MultipleChoiceQuestion>
+        <MultipleChoiceQuestion>
+            <text>
+                What will be displayed in cell E3 if the formula \code{=COUNTIF(A1:D3, &gt; 5)} is entered there?
+            </text>
+            <choice>
+                5
+            </choice>
+            <answer>
+                7
+            </answer>
+            <choice>
+                8
+            </choice>
+            <choice>
+                10
+            </choice>
+        </MultipleChoiceQuestion>
+        <MultipleChoiceQuestion>
+            <text>
+                What will be displayed in cell E3 if the formula \code{=IF(COUNTIF(A1:D3, &gt; 5) &gt; 6, 100, 4)} is entered there?
+            </text>
+            <choice>
+                5
+            </choice>
+            <choice>
+                6
+            </choice>
+            <answer>
+                100
+            </answer>
+            <choice>
+                4
+            </choice>
+        </MultipleChoiceQuestion>
+    </ExamQuestionGroup>
+    
+    <!-- Beginning of the HTML MC questions. These all have the same chapter and section number. -->
+    
+    <MultipleChoiceQuestion>
+        <chapter>20</chapter>
+        <section>1</section>
+        <text>
+            Which of the following snippets of HTML creates a link to the site \url{monkeys.com} with the text: \code{awesome page}?
+        </text>
+        <choice>
+            \code{&lt;link href = "awesome page"&gt;http://www.monkeys.com&lt;/link&gt;}
+        </choice>
+        <choice>
+            \code{&lt;link href = "http://www.monkeys.com"&gt;awesome page&lt;/link&gt;}
+        </choice>
+        <choice>
+            \code{&lt;a href = "awesome page"&gt;http://www.monkeys.com&lt;/a&gt;}
+        </choice>
+        <answer>
+            \code{&lt;a href = "http://www.monkeys.com"&gt;awesome page&lt;/a&gt;}
+        </answer>
+    </MultipleChoiceQuestion>
+    
+    <MultipleChoiceQuestion>
+        <chapter>20</chapter>
+        <section>1</section>
+        <text>
+            Which of the following snippets of HTML creates a bulleted list?
+        </text>
+        <choice>
+            \code{&lt;list&gt;\\
+                \codeIndent Yo\\
+                \codeIndent Monkey\\
+                &lt;/list&gt;
+            }
+        </choice>
+        <choice>
+            \code{&lt;list&gt;\\
+                \codeIndent &lt;li&gt;Yo&lt;/li&gt;\\
+                \codeIndent &lt;li&gt;Monkey&lt;/li&gt;\\
+                &lt;/list&gt;
+            }
+        </choice>
+        <answer>
+            \code{&lt;ul&gt;\\
+                \codeIndent &lt;li&gt;Yo&lt;/li&gt;\\
+                \codeIndent &lt;li&gt;Monkey&lt;/li&gt;\\
+                &lt;/ul&gt;
+            }
+        </answer>
+    </MultipleChoiceQuestion>
+    
+    <MultipleChoiceQuestion>
+        <chapter>20</chapter>
+        <section>1</section>
+        <text>
+            Which table will the following HTML produce?
+            
+            \code{&lt;table border = "1"&gt;\\
+                \codeIndent &lt;tr&gt;\\
+                \codeIndent \codeIndent&lt;td&gt;Monkey&lt;/td&gt;\\
+                \codeIndent \codeIndent&lt;td rowspan = "2"&gt;Gibbon&lt;/td&gt;\\
+                \codeIndent &lt;/tr&gt;\\
+                \codeIndent &lt;tr&gt;\\
+                \codeIndent \codeIndent&lt;td rowspan = "2"&gt;Mankey&lt;/td&gt;\\
+                \codeIndent &lt;/tr&gt;\\
+                \codeIndent &lt;tr&gt;\\
+                \codeIndent \codeIndent&lt;td&gt;Primeape&lt;/td&gt;\\
+                \codeIndent &lt;/tr&gt;\\
+                &lt;/table&gt;
+            }
+        </text>
+        <answer>
+            \begin{tabular}{|l|l|}
+                \hline
+                Monkey &amp; Gibbon \\ \cline{1-1}
+                Mankey &amp; \\ \cline{2-2}
+                &amp; Primeape \\ \hline
+            \end{tabular}
+        </answer>
+        <choice>
+            \begin{tabular}{|l|l|}
+                \hline
+                Monkey &amp; Mankey \\ \cline{1-1}
+                Gibbon &amp; \\ \cline{2-2}
+                &amp; Primeape \\ \hline
+            \end{tabular}
+        </choice>
+        <choice>
+            \begin{tabular}{|l|l|}
+                \hline
+                Monkey &amp; Primeape \\ \hline
+                Gibbon &amp; Mankey \\ 
+                &amp; \\ \hline
+            \end{tabular}
+        </choice>
+        <choice>
+            \begin{tabular}{|l|l|}
+                \hline
+                Monkey &amp; Primeape \\ \hline
+                Mankey &amp; Gibbon \\ 
+                &amp; \\ \hline
+            \end{tabular}
+        </choice>
+    </MultipleChoiceQuestion>
+    
+    <MultipleChoiceQuestion>
+        <chapter>20</chapter>
+        <section>1</section>
+        <text>
+            Which is the correct way to create an HTML table?
+        </text>
+        <choice>
+            \code{&lt;table&gt;\\
+                \codeIndent &lt;tc&gt;\\
+                \codeIndent \codeIndent&lt;td&gt;A&lt;/td&gt;\\
+                \codeIndent \codeIndent&lt;td&gt;B&lt;/td&gt;\\
+                \codeIndent &lt;/tc&gt;\\
+                &lt;/table&gt;
+            }
+        </choice>
+        <answer>
+            \code{&lt;table&gt;\\
+                \codeIndent &lt;tr&gt;\\
+                \codeIndent \codeIndent&lt;td&gt;A&lt;/td&gt;\\
+                \codeIndent \codeIndent&lt;td&gt;B&lt;/td&gt;\\
+                \codeIndent \codeIndent&lt;td&gt;C&lt;/td&gt;\\
+                \codeIndent &lt;/tr&gt;\\
+                &lt;/table&gt;
+            }
+        </answer>
+        <choice>
+            \code{&lt;table&gt;\\\
+                \codeIndent&lt;td&gt;A&lt;/td&gt;\\
+                \codeIndent&lt;td&gt;B&lt;/td&gt;\\
+                \codeIndent&lt;td&gt;C&lt;/td&gt;\\
+                &lt;/table&gt;
+            }
+        </choice>
+        <choice>
+            \code{&lt;table&gt;\\\
+                \codeIndent&lt;tc&gt;A&lt;/tc&gt;\\
+                \codeIndent&lt;tc&gt;B&lt;/tc&gt;\\
+                \codeIndent&lt;tc&gt;C&lt;/tc&gt;\\
+                &lt;/table&gt;
+            }
+        </choice>
+    </MultipleChoiceQuestion>
+    
+    <MultipleChoiceQuestion>
+        <chapter>20</chapter>
+        <section>1</section>
+        <text>
+            Which table is produced by the following HTML snippet?
+            
+            \code{&lt;table border = "0"&gt;\\
+                \codeIndent &lt;tr&gt;\\
+                \codeIndent \codeIndent&lt;td&gt;\\
+                \codeIndent \codeIndent \codeIndent &lt;table border = "0"&gt;\\
+                \codeIndent \codeIndent \codeIndent \codeIndent &lt;tr&gt;\\
+                \codeIndent \codeIndent \codeIndent \codeIndent \codeIndent&lt;td&gt;A&lt;/td&gt;\\
+                \codeIndent \codeIndent \codeIndent \codeIndent \codeIndent&lt;td&gt;B&lt;/td&gt;\\
+                \codeIndent \codeIndent \codeIndent \codeIndent &lt;/tr&gt;\\
+                \codeIndent \codeIndent \codeIndent \codeIndent &lt;tr&gt;\\
+                \codeIndent \codeIndent \codeIndent \codeIndent \codeIndent&lt;td&gt;C&lt;/td&gt;\\
+                \codeIndent \codeIndent \codeIndent \codeIndent \codeIndent&lt;td&gt;D&lt;/td&gt;\\
+                \codeIndent \codeIndent \codeIndent \codeIndent &lt;/tr&gt;\\
+                \codeIndent \codeIndent \codeIndent &lt;/table&gt;\\
+                \codeIndent \codeIndent&lt;/td&gt;\\
+                \codeIndent \codeIndent&lt;td&gt;\\
+                \codeIndent \codeIndent \codeIndent &lt;table border = "0"&gt;\\
+                \codeIndent \codeIndent \codeIndent \codeIndent &lt;tr&gt;\\
+                \codeIndent \codeIndent \codeIndent \codeIndent \codeIndent&lt;td&gt;E&lt;/td&gt;\\
+                \codeIndent \codeIndent \codeIndent \codeIndent \codeIndent&lt;td&gt;F&lt;/td&gt;\\
+                \codeIndent \codeIndent \codeIndent \codeIndent &lt;/tr&gt;\\
+                \codeIndent \codeIndent \codeIndent \codeIndent &lt;tr&gt;\\
+                \codeIndent \codeIndent \codeIndent \codeIndent \codeIndent&lt;td&gt;G&lt;/td&gt;\\
+                \codeIndent \codeIndent \codeIndent \codeIndent \codeIndent&lt;td&gt;H&lt;/td&gt;\\
+                \codeIndent \codeIndent \codeIndent \codeIndent &lt;/tr&gt;\\
+                \codeIndent \codeIndent \codeIndent &lt;/table&gt;\\
+                \codeIndent \codeIndent&lt;/td&gt;\\
+                \codeIndent &lt;/tr&gt;\\
+                &lt;/table&gt;
+            }
+        </text>
+        <choice>
+            \begin{tabular}{llll}
+                A &amp; B \phantom{a} &amp; C &amp; D \\
+                E &amp; F \phantom{a} &amp; G &amp; H 
+            \end{tabular}
+        </choice>
+        <choice>
+            \begin{tabular}{llll}
+                A &amp; C \phantom{a} &amp; E &amp; G \\
+                B &amp; D \phantom{a} &amp; F &amp; H 
+            \end{tabular}
+        </choice>
+        <answer>
+            \begin{tabular}{llll}
+                A &amp; B \phantom{a} &amp; E &amp; F \\
+                C &amp; D \phantom{a} &amp; G &amp; H 
+            \end{tabular}
+        </answer>
+    </MultipleChoiceQuestion>
+    
+    <MultipleChoiceQuestion>
+        <chapter>20</chapter>
+        <section>1</section>
+        <text>
+            Which of the following HTML snippets uses the correct syntax to create a style class usable by multiple types of tags?
+        </text>
+        <answer>
+            \code{&lt;style&gt;\\
+                \codeIndent .narwhal \{color:green;\}\\
+                &lt;/style&gt;
+            }
+        </answer>
+        <choice>
+            \code{&lt;style&gt;\\
+                \codeIndent narwhal \{color:green;\}\\
+                &lt;/style&gt;
+            }
+        </choice>
+        <choice>
+            \code{&lt;style&gt;\\
+                \codeIndent td.narwhal \{color:green;\}\\
+                &lt;/style&gt;
+            }
+        </choice>
+        <choice>
+            \code{&lt;style&gt;\\
+                \codeIndent td \{color:green;\}\\
+                &lt;/style&gt;
+            }
+        </choice>
+    </MultipleChoiceQuestion>
+    
+    <MultipleChoiceQuestion>
+        <chapter>20</chapter>
+        <section>1</section>
+        <text>
+            Where can HTML styles be defined?
+        </text>
+        <choice>
+            In a style attribute in an HTML tag.
+        </choice>
+        <choice>
+            Inside the document, defined in a \code{style} tag within the \code{head} tag.
+        </choice>
+        <choice>
+            In an external document.
+        </choice>
+        <answer>
+            All of the above.
+        </answer>
+    </MultipleChoiceQuestion>
+    
+    <MultipleChoiceQuestion>
+        <chapter>20</chapter>
+        <section>1</section>
+        <text>
+            Which of the following will create a new text-input box in a web form?
+        </text>
+        <choice>
+            \code{&lt;form type = "textbox" /&gt;
+            }
+        </choice>
+        <choice>
+            \code{&lt;form type = "text" /&gt;
+            }
+        </choice>
+        <answer>
+            \code{&lt;input type = "text" /&gt;
+            }
+        </answer>
+        <choice>
+            \code{&lt;textbox /&gt;
+            }
+        </choice>
+        <choice>
+            \code{&lt;text /&gt;
+            }
+        </choice>
+    </MultipleChoiceQuestion>
+    
+    <MultipleChoiceQuestion>
+        <chapter>20</chapter>
+        <section>1</section>
+        <text>
+            Which of the following will cause a window to pop up saying the text \code{Monkey!}?
+        </text>
+        <answer>
+            \code{&lt;script&gt;\\
+                \codeIndent alert('Monkey!');\\
+                &lt;/script&gt;
+            }
+        </answer>
+        <choice>
+            \code{&lt;javascript&gt;\\
+                \codeIndent alert('Monkey!');\\
+                &lt;/javascript&gt;
+            }
+        </choice>
+        <choice>
+            \code{&lt;alert&gt;\\
+                \codeIndent Monkey!\\
+                &lt;/alert&gt;
+            }
+        </choice>
+        <choice>
+            \code{&lt;alertbox&gt;\\
+                \codeIndent Monkey!\\
+                &lt;/alertbox&gt;
+            }
+        </choice>
+    </MultipleChoiceQuestion>
+    
+    <MultipleChoiceQuestion>
+        <chapter>20</chapter>
+        <section>1</section>
+        <text>
+            Which of the following HTML snippets will create a web form with a button labelled "Click Me!"?
+        </text>
+        <choice>
+            \code{&lt;form&gt;\\
+                \codeIndent &lt;input value = "button" type = "Click Me!"/&gt;\\
+                &lt;/form&gt;
+            }
+        </choice>
+        <answer>
+            \code{&lt;form&gt;\\
+                \codeIndent &lt;input type = "button" value = "Click Me!"/&gt;\\
+                &lt;/form&gt;
+            }
+        </answer>
+        <choice>
+            \code{&lt;form&gt;\\
+                \codeIndent &lt;input type = "button"&gt;Click Me!&lt;/input&gt;\\
+                &lt;/form&gt;
+            }
+        </choice>
+        <choice>
+            \code{&lt;form&gt;\\
+                \codeIndent &lt;button type = "button" value = "Click Me!"/&gt;\\
+                &lt;/form&gt;
+            }
+        </choice>
+    </MultipleChoiceQuestion>
+    
+    <MultipleChoiceQuestion>
+        <chapter>20</chapter>
+        <section>1</section>
+        <text>
+            Which of the following HTML snippets correctly creates a radio button group for use in a web form?
+        </text>
+        <answer>
+            \code{Are you a college student?&lt;br/&gt;\\
+                \codeIndent &lt;input type = "radio" name = "collegeness" value = "true"/&gt; Yes&lt;br/&gt;\\
+                \codeIndent &lt;input type = "radio" name = "collegeness" value = "false"/&gt; No&lt;br/&gt;
+            }
+        </answer>
+        <choice>
+            \code{Are you a college student?&lt;br/&gt;\\
+                \codeIndent &lt;input type = "radio" name = "yes" value = "true"/&gt; Yes&lt;br/&gt;\\
+                \codeIndent &lt;input type = "radio" name = "no" value = "false"/&gt; No&lt;br/&gt;
+            }
+        </choice>
+        <choice>
+            \code{Are you a college student?&lt;br/&gt;\\
+                \codeIndent &lt;input type = "radio" name = "yes"/&gt; Yes&lt;br/&gt;\\
+                \codeIndent &lt;input type = "radio" name = "no"/&gt; No&lt;br/&gt;
+            }
+        </choice>
+        <choice>
+            \code{Are you a college student?&lt;br/&gt;\\
+                \codeIndent &lt;input type = "radio" name = "yesInCollege"/&gt; Yes&lt;br/&gt;\\
+                \codeIndent &lt;input type = "radio" name = "noNotInCollege"/&gt; No&lt;br/&gt;
+            }
+        </choice>
+    </MultipleChoiceQuestion>
+    
+    <!-- End of the HTML MC questions. -->
+    
+    
+    
+    
+    
+    <FillInTheBlankQuestion>
+        <chapter>1</chapter>
+        <section>1</section>
+        <text>
+            A command or instruction to the computer is a(n) \blankToFillIn.
+        </text>
+        <answer>
+            statement
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>1</chapter>
+        <section>2</section>
+        <text>
+            A(n) \blankToFillIn\ expression evaluates to either true or false.
+        </text>
+        <answer>
+            boolean
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>1</chapter>
+        <section>3</section>
+        <text>
+            A(n) \blankToFillIn\ is something that must be true for something else to happen.
+        </text>
+        <answer>
+            condition
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>1</chapter>
+        <section>3</section>
+        <text>
+            In Scratch, a(n) \blankToFillIn\ is a compound instruction or a construct that has other instructions inside.
+        </text>
+        <answer>
+            block
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>1</chapter>
+        <section>4</section>
+        <text>
+            The \code{forever}, \code{repeat} and \code{repeat until} Scratch instructions are each an example of a(n) \blankToFillIn\ block.
+        </text>
+        <answer>
+            loop
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>1</chapter>
+        <section>5</section>
+        <text>
+            A(n) \blankToFillIn\ is a place-holder for some value.
+        </text>
+        <answer>
+            variable
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>1</chapter>
+        <section>5</section>
+        <text>
+            Any Scratch script in any sprite may use a(n) \blankToFillIn\ variable.
+        </text>
+        <answer>
+            global
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>1</chapter>
+        <section>5</section>
+        <text>
+            In Scratch, only one sprite may use and change any of its \blankToFillIn\ variables.
+        </text>
+        <answer>
+            local
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>1</chapter>
+        <section>6</section>
+        <text>
+            If there is more than one \blankToFillIn\ in a program, it can do multiple things at once.
+        </text>
+        <answer>
+            thread
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>1</chapter>
+        <section>7</section>
+        <text>
+            A(n) \blankToFillIn\ is a signal sent from one thread that can be received by all other threads.
+        </text>
+        <answer>
+            event
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>11</chapter>
+        <section>1</section>
+        <text>
+            In Excel, the letters above the grid are the column \blankToFillIn s.
+        </text>
+        <answer>
+            heading
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>11</chapter>
+        <section>1</section>
+        <text>
+            In Excel, each column and row intersect in a(n) \blankToFillIn .
+        </text>
+        <answer>
+            cell
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>11</chapter>
+        <section>1</section>
+        <text>
+            An Excel cell reference that adjusts with copying and pasting is a(n) \blankToFillIn\ reference.
+        </text>
+        <answer>
+            relative
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>11</chapter>
+        <section>1</section>
+        <text>
+            To combine multiple Excel cells into a single cell, you \blankToFillIn\ them.
+        </text>
+        <answer>
+            merge
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>12</chapter>
+        <section>1</section>
+        <text>
+            A predefined Excel formula is a(n) \blankToFillIn , and takes a value or values and performs an operation.
+        </text>
+        <answer>
+            function
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>12</chapter>
+        <section>1</section>
+        <text>
+            The inputs to a function are the \blankToFillIn s.
+        </text>
+        <answer>
+            argument
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>12</chapter>
+        <section>1</section>
+        <text>
+            \blankToFillIn formatting means the cell's format depends on the value.
+        </text>
+        <answer>
+            conditional
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>13</chapter>
+        <section>1</section>
+        <text>
+            A(n) \blankToFillIn cell reference doesn't change when the formula is copied and pasted to another cell.
+        </text>
+        <answer>
+            absolute
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>13</chapter>
+        <section>1</section>
+        <text>
+            A(n) \blankToFillIn cell reference changes up to only one of the coordinates when the formula is copied and pasted to another cell.
+        </text>
+        <answer>
+            mixed
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>13</chapter>
+        <section>1</section>
+        <text>
+            In Excel, you can use \blankToFillIn\ seeking to find the value of a cell on which a formula depends.
+        </text>
+        <answer>
+            goal
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>14</chapter>
+        <section>1</section>
+        <text>
+            Cell \blankToFillIn\ prevents other users from changing entered data and formulas.
+        </text>
+        <answer>
+            protection
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>14</chapter>
+        <section>1</section>
+        <text>
+            A(n) \blankToFillIn\ schedule shows periodic balances of a loan, including the amount applied to the interest and principal.
+        </text>
+        <answer>
+            amortization
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>14</chapter>
+        <section>1</section>
+        <text>
+            A(n) \blankToFillIn\ is a series of payments at a constant interest rate.
+        </text>
+        <answer>
+            annuity
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>15</chapter>
+        <section>1</section>
+        <text>
+            A(n) \blankToFillIn\ is an organized table of data.
+        </text>
+        <answer>
+            database
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>15</chapter>
+        <section>1</section>
+        <text>
+            A row of a database is a(n) \blankToFillIn .
+        </text>
+        <answer>
+            record
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>15</chapter>
+        <section>1</section>
+        <text>
+            Data \blankToFillIn\ ensures that values in a cell have a legitimate value.
+        </text>
+        <answer>
+            validation
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>15</chapter>
+        <section>1</section>
+        <text>
+            A(n) \blankToFillIn\ filters records in a database based on criteria.
+        </text>
+        <answer>
+            query
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <!-- Beginning of the HTML FitB questions. These all have the same chapter and section number. -->
+    
+    <FillInTheBlankQuestion>
+        <chapter>20</chapter>
+        <section>1</section>
+        <text>
+            An HTML \blankToFillIn\ describes an element and is written inside the \code{&lt;} and \code{&gt;} symbols.
+        </text>
+        <answer>
+            tag
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>20</chapter>
+        <section>1</section>
+        <text>
+            A(n) \blankToFillIn\ of a tag describes a property of the corresponding element.
+        </text>
+        <answer>
+            attribute
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <FillInTheBlankQuestion>
+        <chapter>20</chapter>
+        <section>1</section>
+        <text>
+            CSS stands for cascading \blankToFillIn\ sheets.
+        </text>
+        <answer>
+            style
+        </answer>
+    </FillInTheBlankQuestion>
+    
+    <!-- End of the HTML FitB questions. -->
+    
+</Questions>
+    
